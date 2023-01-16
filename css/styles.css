@@ -79,6 +79,8 @@ header{
 .link,
 .link-logo {
   text-decoration: none;
+   transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .first-title {
   margin-top: 0;
@@ -140,6 +142,7 @@ header{
   cursor: pointer;
   border-radius: 4px;
   padding: 12px 24px;
+  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1),background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover,
 .button:focus {
@@ -153,6 +156,8 @@ header{
   background-color: var(--accent-color);
   border: 1px solid transparent;
   padding: 16px 32px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .main-button:hover,
 .main-button:focus{
@@ -318,6 +323,8 @@ header{
   border-radius: 50%;
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .media-link:hover,
 .media-link:focus{
@@ -339,6 +346,7 @@ header{
 .customers-list > li{
     border: 1px solid var(--pouring-color);
     border-radius: 4px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-list > li:hover,
@@ -352,6 +360,7 @@ header{
   justify-content: center;
   align-items: center;
   fill: var(--pouring-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-link:hover,
 .customers-link:focus{
@@ -380,6 +389,8 @@ header{
   width: calc((100% - 48px) / 3);
   margin-right: 24px;
   margin-bottom: 48px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .examples .item:hover{
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -510,6 +521,8 @@ footer {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .footer-media-link:hover,
 .footer-media-link:focus{
