@@ -261,11 +261,10 @@ header {
 }
 .cross {
   display: flex;
-  padding: 0;
   margin: 0;
   margin-left: auto;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  fill: var(--second-complementary-color);
+  fill: #000000;
   width: 24px;
   height: 24px;
   border-radius: 50%;
